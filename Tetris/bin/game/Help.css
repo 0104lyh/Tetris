@@ -1,0 +1,14 @@
+.root {
+     -fx-background-image: url("pic/helpback.png");
+}
+
+
+.button{
+    -fx-text-fill: #006464;
+    -fx-skin: "com.sun.javafx.scene.control.skin.ButtonSkin";
+    /*-fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;*/
+    -fx-background-color: transparent;
+    -fx-background-insets: 0 0 0 0, 0, 0, 0;
+    -fx-background-radius: 0 0 0 0, 0, 0, 0;
+    -fx-border-width: 0 0 0 0, 0, 0, 0;
+}
